@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
     key_name = "tws-terra-key"
-    public_key = file("${path.module}/terrakey.pub")
+    public_key = file("${path.module}/terra-key.pub")
 }
 
 #default vpc
