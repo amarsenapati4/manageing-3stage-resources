@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+
+terraform-multi-env-project/.terraform.lock.hcl
+
+
+*.pem
+*.pub
+
+terrakey
