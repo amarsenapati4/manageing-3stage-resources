@@ -11,4 +11,4 @@ terraform-multi-env-project/.terraform.lock.hcl
 *.pem
 *.pub
 
-terrakey
+terra-key
