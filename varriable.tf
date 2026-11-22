@@ -7,12 +7,12 @@ variable "my-Environment" {
 variable "ami_id" {
   type = string
   description = "This is ami id "
-  default="ami-09c2df4695b7bd4d0"
+  default="ami-06071c9809899e1e1"
 }
 
 variable "instance_type" {
   type = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "region"{

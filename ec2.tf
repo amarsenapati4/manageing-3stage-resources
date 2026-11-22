@@ -1,5 +1,5 @@
 resource "aws_key_pair" "deployer" {
-    key_name = "tws-terra-key"
+    key_name = "tws-${var.my-Environment}-terra-key"
     public_key = file("${path.module}/terra-key2.pub")
 }
 
