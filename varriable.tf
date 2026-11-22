@@ -1,17 +1,18 @@
 variable "my-Environment" {
   type = string
   description = "This define the environment"
-  default = "dev"
+  default = "prod"
 }
 
 variable "ami_id" {
   type = string
   description = "This is ami id "
-  default="ami-0331e43da0c1f186e"
+  default="ami-09a2f74ce8538e414"
 }
 
 variable "instance_type" {
   type = string
+  default = "t2.micro"
 }
 
 variable "region"{
