@@ -1,7 +1,7 @@
 variable "my-Environment" {
   type = string
   description = "This define the environment"
-  default = "dev"
+  default = "test"
 }
 
 variable "ami_id" {
