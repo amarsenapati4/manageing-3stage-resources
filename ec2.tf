@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
     key_name = "tws-terra-key"
-    public_key = file("/Users/rajas/OneDrive/Desktop/my_terra_practice/terraform-multi-env-project")
+     public_key = file("${path.module}/terrakey.pub")
 }
 
 #default vpc
